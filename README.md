@@ -5,7 +5,7 @@ A lightweight, high-performance, plugin to access markdown file headings (Table 
 ## 🚀 Features
 
 
-✅ Auto integrations automatically with Telescope if installed  and if not will use native vim.select
+✅ Auto integrations with Telescope if installed  and if not will use native vim.select
 
 
 
