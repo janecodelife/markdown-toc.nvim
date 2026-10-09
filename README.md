@@ -1,17 +1,21 @@
 # markdown-toc.nvim
 
-A lightweight, high-performance, and zero-dependency  Neovim plugin written in Lua that parses the active markdown buffer and creates an interactive Table of Contents menu utilizing Neovim's native core `vim.ui.select` engine.
+A lightweight, high-performance, plugin to access markdown file headings (Table Of Content) with auto integrations with Telescope
 
 ## 🚀 Features
 
-- **Universal Picker Compatibility**: Integrates automatically with Telescope, FZF, or vanilla Neovim text pickers seamlessly.
-- **Optional Telescope And FZF
+
+✅ Auto integrations automatically with Telescope if installed  and if not will use native vim.select
+
+
+
 ## 📦 Installation
 
 ```lua
 
 vim.pack.add({
     "https://github.com/janecodelife/markdown-toc.nvim",
+    "https://github.com/nvim-telescope/telescope.nvim" -- Optional
 })
 
 -- Setup and configure the plugin
@@ -30,6 +34,30 @@ vim.keymap.set("n", "<leader>mo", "<cmd>MarkdownTOC<cr>", { desc = "Markdown Ope
 | :--- | :--- | :--- | :--- |
 | `min_level` | `number` | `1` | The minimum markdown heading depth to parse into the table of contents list. |
 | `max_level` | `number` | `6` | The maximum markdown heading depth to parse into the table of contents list. |
+
+
+---
+
+
+## Video 📺
+
+<p align="center">
+  <a href="https://youtu.be/O9HuCR4MXR8">
+    <img src="./assets/markdown-toc.png" alt="markdown-toc-video" width="100%">
+  </a>
+</p>
+
+
+---
+
+##  If Have A Question🤝 (Contact Me)
+
+I will be there i am answer to all messages
+
+- **X (Twitter)**: [https://x.com/janecodelife](https://x.com/janecodelife)
+- **YouTube**: [https://www.youtube.com/@JaneCodeLife](https://www.youtube.com/@JaneCodeLife) 
+- **Email**: [janecodelife@gmail.com](janecodelife@gmail.com)
+
 
 
 # Thank You
